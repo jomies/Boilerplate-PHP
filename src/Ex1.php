@@ -23,4 +23,5 @@ if ($accion === 'promedio') {
 } else {
     echo "Acción no válida. Debes proporcionar 'accion=promedio', 'accion=minimo' o 'accion=maximo' en la URL.";
 }
+
 ?>
