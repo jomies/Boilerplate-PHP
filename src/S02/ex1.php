@@ -1,4 +1,4 @@
 <?php
-echo date(string $format, int $timestamp = time()): string
 
-?>
+$date = date("Y/m/d H:i:s"); // No necesitas definir los tipos de argumentos en esta línea
+echo $date;
